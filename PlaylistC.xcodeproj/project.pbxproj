@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		021E37772293098E0045D1CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E37762293098E0045D1CA /* AppDelegate.m */; };
-		021E377A2293098E0045D1CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E37792293098E0045D1CA /* ViewController.m */; };
 		021E377D2293098E0045D1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021E377B2293098E0045D1CA /* Main.storyboard */; };
 		021E377F2293098F0045D1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021E377E2293098F0045D1CA /* Assets.xcassets */; };
 		021E37822293098F0045D1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021E37802293098F0045D1CA /* LaunchScreen.storyboard */; };
 		021E37852293098F0045D1CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E37842293098F0045D1CA /* main.m */; };
+		021E378E22930BC90045D1CA /* SRHSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E378D22930BC90045D1CA /* SRHSong.m */; };
+		021E379122930C320045D1CA /* SRHPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E379022930C320045D1CA /* SRHPlaylist.m */; };
+		021E3795229316B40045D1CA /* SRHPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E3794229316B40045D1CA /* SRHPlaylistController.m */; };
+		021E379A229322710045D1CA /* SRHPlaylistListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E3799229322710045D1CA /* SRHPlaylistListTableViewController.m */; };
+		021E379E22933A9B0045D1CA /* SRHDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E379D22933A9B0045D1CA /* SRHDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		021E37722293098E0045D1CA /* PlaylistC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		021E37752293098E0045D1CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		021E37762293098E0045D1CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		021E37782293098E0045D1CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		021E37792293098E0045D1CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		021E377C2293098E0045D1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		021E377E2293098F0045D1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		021E37812293098F0045D1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		021E37832293098F0045D1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		021E37842293098F0045D1CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		021E378C22930BC90045D1CA /* SRHSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHSong.h; sourceTree = "<group>"; };
+		021E378D22930BC90045D1CA /* SRHSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHSong.m; sourceTree = "<group>"; };
+		021E378F22930C320045D1CA /* SRHPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHPlaylist.h; sourceTree = "<group>"; };
+		021E379022930C320045D1CA /* SRHPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHPlaylist.m; sourceTree = "<group>"; };
+		021E3793229316B40045D1CA /* SRHPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHPlaylistController.h; sourceTree = "<group>"; };
+		021E3794229316B40045D1CA /* SRHPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHPlaylistController.m; sourceTree = "<group>"; };
+		021E3798229322710045D1CA /* SRHPlaylistListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHPlaylistListTableViewController.h; sourceTree = "<group>"; };
+		021E3799229322710045D1CA /* SRHPlaylistListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHPlaylistListTableViewController.m; sourceTree = "<group>"; };
+		021E379C22933A9B0045D1CA /* SRHDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHDetailTableViewController.h; sourceTree = "<group>"; };
+		021E379D22933A9B0045D1CA /* SRHDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +70,65 @@
 		021E37742293098E0045D1CA /* PlaylistC */ = {
 			isa = PBXGroup;
 			children = (
+				021E377B2293098E0045D1CA /* Main.storyboard */,
+				021E3796229316BC0045D1CA /* Controllers */,
+				021E379222930C3D0045D1CA /* Models */,
+				021E378B22930A9A0045D1CA /* Resources */,
+			);
+			path = PlaylistC;
+			sourceTree = "<group>";
+		};
+		021E378B22930A9A0045D1CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				021E37752293098E0045D1CA /* AppDelegate.h */,
 				021E37762293098E0045D1CA /* AppDelegate.m */,
-				021E37782293098E0045D1CA /* ViewController.h */,
-				021E37792293098E0045D1CA /* ViewController.m */,
-				021E377B2293098E0045D1CA /* Main.storyboard */,
 				021E377E2293098F0045D1CA /* Assets.xcassets */,
 				021E37802293098F0045D1CA /* LaunchScreen.storyboard */,
 				021E37832293098F0045D1CA /* Info.plist */,
 				021E37842293098F0045D1CA /* main.m */,
 			);
-			path = PlaylistC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		021E379222930C3D0045D1CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				021E378F22930C320045D1CA /* SRHPlaylist.h */,
+				021E379022930C320045D1CA /* SRHPlaylist.m */,
+				021E378C22930BC90045D1CA /* SRHSong.h */,
+				021E378D22930BC90045D1CA /* SRHSong.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		021E3796229316BC0045D1CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				021E37972293223A0045D1CA /* ModelControllers */,
+				021E379B229322830045D1CA /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		021E37972293223A0045D1CA /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				021E3793229316B40045D1CA /* SRHPlaylistController.h */,
+				021E3794229316B40045D1CA /* SRHPlaylistController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		021E379B229322830045D1CA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				021E379C22933A9B0045D1CA /* SRHDetailTableViewController.h */,
+				021E379D22933A9B0045D1CA /* SRHDetailTableViewController.m */,
+				021E3798229322710045D1CA /* SRHPlaylistListTableViewController.h */,
+				021E3799229322710045D1CA /* SRHPlaylistListTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +157,7 @@
 		021E376A2293098E0045D1CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SRH;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Bobba Kadush";
 				TargetAttributes = {
@@ -141,9 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021E377A2293098E0045D1CA /* ViewController.m in Sources */,
+				021E378E22930BC90045D1CA /* SRHSong.m in Sources */,
 				021E37852293098F0045D1CA /* main.m in Sources */,
+				021E3795229316B40045D1CA /* SRHPlaylistController.m in Sources */,
+				021E379A229322710045D1CA /* SRHPlaylistListTableViewController.m in Sources */,
 				021E37772293098E0045D1CA /* AppDelegate.m in Sources */,
+				021E379E22933A9B0045D1CA /* SRHDetailTableViewController.m in Sources */,
+				021E379122930C320045D1CA /* SRHPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
